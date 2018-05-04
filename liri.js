@@ -173,6 +173,7 @@ function readFile() {
         // We will then re-display the content as an array for later use.
         console.log(dataArr);
 
+        //Get parameters for the operation
         var action = dataArr[0];
         var parameter = dataArr[1];
 
